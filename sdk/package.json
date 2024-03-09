@@ -1,0 +1,16 @@
+{
+    "name": "power-bi-sdk",
+    "version": "2.0.4413",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "generate": "npm exec autorest --input-file:powerbi.md --clear-output-folder:true",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@autorest/csharp": "^3.0.0-beta.20240308.3",
+        "autorest": "^3.7.1"
+    }
+}
