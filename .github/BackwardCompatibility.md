@@ -15,11 +15,13 @@ Breaking changes in Power BI SDK for .NET are defined as follows:
 - A property has its type changed
 
 ## Methods of a generated class
+
 - Methods should not be removed
 - Methods should not be renamed
 - Methods should not have their return type changed
 
 ## Parameters of methods in a generated class
+
 - Parameters should not be removed
 - Parameters should not have their type changed
 - Parameters should preserve their ordering, including when a parameter is added
